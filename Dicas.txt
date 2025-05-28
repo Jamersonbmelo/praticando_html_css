@@ -1,9 +1,35 @@
 Propriedade padrão html
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
-    margin: 0px;
+    margin: 0px; // "Serve para zerar a margin do site antes de começar a programar!"
 }
+
+
+Por que usar border-box?
+Evita surpresas no layout:
+Com border-box, o elemento sempre vai ter o tamanho que você definiu — o padding e a borda não aumentam esse valor.
+
+Facilita o design responsivo:
+Ao trabalhar com grids, colunas e tamanhos fixos, border-box torna tudo mais estável e previsível.
+
+É o padrão em muitos frameworks:
+Bootstrap, Tailwind e outros já usam box-sizing: border-box por padrão.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Quando usar target="_blank"
+✅ Use quando:
+
+O link leva para fora do seu site
+Por exemplo, links para redes sociais, artigos externos, vídeos no YouTube, etc.
+
+Você não quer que o usuário perca o conteúdo atual
+Isso é útil se você estiver oferecendo um link de apoio ou referência.
+
+❌ Evite usar quando:
+O link é interno ao seu próprio site e faz parte da navegação normal.
+Abrir várias abas pode ser irritante se o usuário não esperar por isso.
