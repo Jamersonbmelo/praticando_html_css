@@ -70,6 +70,8 @@ p {
    TEXT-ALING: (ALINHA O TEXTO EX: LEFT)
    LETTER-SPACING: (ESPAÇAMENTO ENTRE AS LETRAS)
    WORD-SPACING: (ESPAÇAMENTO ENTRE AS PALAVRAS)
+   LINE-HEIGHT: (ALTURA DAS LINHAS)
+   TEXT-SHADOW: (SOMBRA NO TEXTO EX: Opx 2px 3px #FF0000)
 }
 
 a {
@@ -79,3 +81,7 @@ a {
 
 :hover (O :hover no CSS é um seletor de pseudo-classe que aplica estilos quando o usuário passa o mouse sobre um elemento — geralmente usado em botões, links, imagens e menus para melhorar a interação visual.)
 
+/////////////////////////////////////////////////////////////////////////////////////////
+FONTES EXTERNAS: fonts.google.com
+
+////////////////////////////////////////////////////////////////////////////////////////
