@@ -1,4 +1,4 @@
-Propriedade padrão html
+PROPRIEDADE PADRÃO DO HTML
 
 * {
     box-sizing: border-box; 
@@ -8,8 +8,10 @@ body {
     margin: 0px; // "Serve para zerar a margin do site antes de começar a programar!"
 }
 
+///////////////////////////////////////////////////////////////////////////////////////
 
-Por que usar border-box?
+POR QUE USAR BORDER-BOX?
+
 Evita surpresas no layout:
 Com border-box, o elemento sempre vai ter o tamanho que você definiu — o padding e a borda não aumentam esse valor.
 
@@ -33,3 +35,47 @@ Isso é útil se você estiver oferecendo um link de apoio ou referência.
 ❌ Evite usar quando:
 O link é interno ao seu próprio site e faz parte da navegação normal.
 Abrir várias abas pode ser irritante se o usuário não esperar por isso.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+FORMATACAO DE TEXTO NO HTML (ALGUNS)
+
+<b> = NEGRITO = SEM SEMÂNTICA DE IMPORTANCIA
+<strong> = NEGRITO  = SEMÂNTICA DE IMPORTANCIA
+
+<i> = ITALICO = SEM SEMÂNTICA DE IMPORTANCIA
+<em> = ITALICO = SEMÂNTICA DE IMPORTANCIA
+
+<del> = Ela risca a palavra no meio
+<mark> = destacar uma palavra ou frase no texto (tipo um marca texto)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+TAG DE COMENTARIO INTERNO (PROGRAMADOR VISUALIZAR)
+
+<!--TEXTO-->
+
+/////////////////////////////////////////////////////////////////////////////////////////
+site para gerar texto do jeito que você quiser
+https://www.lipsum.com
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+FORMATAÇÃO DE TEXTOS NO CSS
+p {
+   COLOR: (ESCOLHE A COR DA LETRA EX: #0000FFF)
+   FONT-SIZE: (TAMANHO DA LETRA EX: 17PX)
+   FONT-WIGHT: (FORMATAÇÃO DA LETRA EX: BOLD)
+   FONT-FAMILY: (MUDA O TIPO DE FONTE EX: ARIAL)
+   TEXT-ALING: (ALINHA O TEXTO EX: LEFT)
+   LETTER-SPACING: (ESPAÇAMENTO ENTRE AS LETRAS)
+   WORD-SPACING: (ESPAÇAMENTO ENTRE AS PALAVRAS)
+}
+
+a {
+   TEXT-DECORATION: NONE; (SERVE PARA TIRAR UNDERLINE OU ALGUM TIPO DE DECORAÇÃO DE TEXTO)
+	
+}
+
+:hover (O :hover no CSS é um seletor de pseudo-classe que aplica estilos quando o usuário passa o mouse sobre um elemento — geralmente usado em botões, links, imagens e menus para melhorar a interação visual.)
+
