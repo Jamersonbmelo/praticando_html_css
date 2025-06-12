@@ -21,3 +21,7 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+
+ul {
+    list-style-image: url('endereço')
+}

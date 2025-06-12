@@ -85,3 +85,25 @@ a {
 FONTES EXTERNAS: fonts.google.com
 
 ////////////////////////////////////////////////////////////////////////////////////////
+LISTAS
+<ul> (LISTA DESORDENADO:  EX: Menu de navegação, lista de compras )
+<ol> (LISTA ORDENADA:  EX: Passo a passo, ranking )
+<li> (ITEM INDIVIDUAL: EX:	Dentro de <ul> ou <ol>)
+
+Estilização Básica: <ul>
+ul {
+    list-style-type: disc;        Padrão (bolinha preta)
+    list-style-type: circle;      Bolinha vazada
+    list-style-type: square;      Quadrado
+    list-style-type: none;        Remove marcador (ótimo para menus)
+}
+
+Estilização Avançada: <ul> (colocando imagem)
+ul {
+    list-style-image: url('caminho/para/icone.png');
+    list-style-image: url('https://via.placeholder.com/10x10');
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+TABELAS
+
