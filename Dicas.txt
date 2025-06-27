@@ -107,3 +107,13 @@ ul {
 ////////////////////////////////////////////////////////////////////////////////////////
 TABELAS
 
+<tr> = Table Row = linha da tabela
+<th> = Table Header = cabeçalho da coluna (geralmente em negrito)
+<td> = Table Data = dado da célula (texto ou número)
+
+A tag <thead> é usada em HTML para agrupar os cabeçalhos de uma tabela. 
+Ela ajuda a organizar o código e melhora a acessibilidade, 
+além de permitir estilos mais específicos com CSS.
+
+A tag <tbody> é usada em HTML para agrupar o corpo (conteúdo principal) de uma tabela 
+— ou seja, todas as linhas de dados que não fazem parte do cabeçalho (<thead>) ou do rodapé (<tfoot>).
